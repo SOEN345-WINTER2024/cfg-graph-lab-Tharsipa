@@ -1,5 +1,8 @@
 # Lab 7 
 ## Tharsipa Nadarajah - 40190597
+
+### Basic Calculator onClick Method
+
 - Step 1:  CFG Graph for onClick(): [Link to CFG](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-Tharsipa/blob/master/Lab7%20cfg/cfg_onClick.pdf)
 - Step 2: Test requirements and test paths for Node Coverage
 
@@ -19,4 +22,25 @@
 
   
   Test paths: [1,2,23], [1,3,23], [1,4,23], [1,5,23], [1,6,23], [1,7,23], [1,8,23], [1,9,23], [1,10,23], [1,11,23], [1,12,23], [1,13,23], [1,14,23], [1,15,23], [1,16,23], [1,17,18,22,23], [1,17,19,22,23], [1,17,20,22,23], [1,17,21,22,23]
+
+### CycleStreets app doPauseResume method
+
+- Step 1:  CFG Graph for doPauseResume(): [Link to CFG](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-Tharsipa/blob/master/Lab7%20cfg/CycleStreets_doPauseResume_cfg.pdf)
+- Step 2: Test requirements and test paths for Node Coverage
+
+  TR: {1,2,3,4,5}
+  
+  Test paths: [1,2,3,5],[1,2,4,5]
+  
+- Step 3: Test requirements and test paths for Edge Coverage
+
+  TR: {(1,2),(2,3),(2,4),(3,5),(4,5)}
+
+  Test paths: [1,2,3,5],[1,2,4,5]
+
+- Step 4: Test requirements and test paths for Edge Pair Coverage
+
+  TR: {(1,2,3),(1,2,4),(2,3,5),(2,4,5)}
+
+  Test paths: [1,2,3,5],[1,2,4,5]
   
